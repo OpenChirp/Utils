@@ -1,0 +1,7 @@
+#!/bin/bash
+
+DEVICE=${1:-/dev/ttyUSB0}
+
+. mdotlib.bash $DEVICE
+
+
